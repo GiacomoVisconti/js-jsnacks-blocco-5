@@ -51,7 +51,7 @@ const corte_15 = zucchine.map((element)=> {
 }) 
 const lunghe_15 = zucchine.map((element)=> {
   if (element.length > 15) {
-    return elements
+    return element
   } 
 }) 
 console.log(corte_15);
