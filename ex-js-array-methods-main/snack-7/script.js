@@ -36,6 +36,7 @@ students.forEach((element) =>{
     risultato = element
   }
 })
+console.log(risultato);
 
 //Con il metodo MAP 
 const result1 = students.map((element)=>{
@@ -45,6 +46,13 @@ const result1 = students.map((element)=>{
 })
 console.log(result1);
 
-console.log(risultato);
+//Con il metodo FIND
+const risultato1  = students.find((element) =>{
+  if (element.id === 2){
+    return element
+  }
+})
+console.log(risultato1);
+
 
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
